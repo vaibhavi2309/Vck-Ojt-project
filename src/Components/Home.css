@@ -1,5 +1,5 @@
 .image{
-  background-image: url('D:\OJT\Final-vck-ojt-project\public\images\hq720.jpg');
+  background-image: url('/images/hq720.jpg');
   background-size: cover;
   background-position-x: center;
   height: 35ch;
