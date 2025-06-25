@@ -31,13 +31,13 @@ const Home = () => {
                     <li>Strong Placements: Excellent career opportunities with leading companies.</li>
                 </ol>
                 <h2>Campus Life & Facilities</h2>
-               <div className="contain"> <img src="https://vivekanandcollege.ac.in/uploads/whatsapp%20image%202025-05-15%20at%2010.31.26%20am.jpeg" className="photo"/>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5cG7hkbR8CPbm_EKifmfie1HFmdRyXznBqQ&s" className="photo1"/></div>
+               <div className="contain"> <img src="/images/campus-life-Crkero7B.jpg" className="photo"/>
+                <img src="/images/students-studying-DbLGuwF_.jpeg" className="photo1"/></div>
                 <p>Explore our vibrant campus and state-of-the-art facilities designed to enhance your learning experience and personal growth.</p>
                 <p>Ready to explore our courses?</p>
                 <a href="Courses"><div className="buttonn"><button>Explore Courses</button></div></a></div>
             </div></div>
-
+          
             <Footer />
         </>
     )

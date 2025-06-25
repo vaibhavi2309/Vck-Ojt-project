@@ -1,3 +1,4 @@
+
 .image{
   background-image: url('/images/hq720.jpg');
   background-size: cover;
@@ -43,7 +44,8 @@ h3{
     box-shadow: 4px 4px 4px 4px rgba(0,0,0,0.1);
    border-radius: 10px;
     font-size: medium;
-    
+    display: flex;
+    flex-wrap: wrap;
 }
 .container{
     display: flex;
@@ -52,7 +54,7 @@ h3{
     margin: 10px;
     padding: 10px;
     border:10px;
-   
+    flex: 1 1 300px;
 }
 .scrollable-content{
     height: 100vh;
@@ -119,4 +121,10 @@ ol li{
     justify-content: center;
     gap: 40px;
 }
-
+@media (max-width:768px){
+    .college-box{
+        max-width: 90%;
+        padding: 15px;
+        
+    }
+}
