@@ -121,10 +121,3 @@ ol li{
     justify-content: center;
     gap: 40px;
 }
-@media (max-width:768px){
-    .college-box{
-        max-width: 90%;
-        padding: 15px;
-        
-    }
-}
