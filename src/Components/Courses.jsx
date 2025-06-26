@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import './Corses.css'
+import { Link } from 'react-router-dom'
 
 const Courses = () => {
     return (
@@ -107,7 +108,7 @@ const Courses = () => {
                 <p>In addition to traditional degree programs, we offer various certificate and diploma courses in areas like Digital Marketing, Web Development, Data Analytics, and Soft Skills Development, providing specialized training for career enhancement.</p>
 
                  <p>Have questions about a specific course?</p>
-                <div className="buttonn"><a href="/contact"><button>Inquire About Courses</button></a></div></div>
+                <div className="buttonn"><Link to="/contact"><button>Inquire About Courses</button></Link></div></div>
                 </div></div>
             <Footer />
         </>
